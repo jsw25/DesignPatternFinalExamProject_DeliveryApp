@@ -1,12 +1,21 @@
 package DeliveryFoodStore;
 
-import OrderMenuComponent.OrderBurgerMenuComponent;
+//import OrderMenuComponent.OrderBurgerMenuComponent;
 
 public class 버거킹Store extends BurgerTypeStore {
     /*getInstance()구현*/
+//    @Override
+//    public OrderBurgerMenuComponent createBurgerMenu() {
+//        return ;
+//    }
     @Override
-    public OrderBurgerMenuComponent createBurgerMenu() {
-        return ;
+    public String getBurgerTypeStoreName() {
+        return burgerTypeStoreName;
+    }
+
+    @Override
+    public void setBurgerTypeStoreName(String burgerTypeStore_Name) {
+        burgerTypeStoreName = burgerTypeStore_Name;
     }
 }
 

@@ -1,11 +1,22 @@
 package DeliveryFoodStore;
 
-import OrderMenuComponent.OrderBurgerMenuComponent;
+//import OrderMenuComponent.OrderBurgerMenuComponent;
 
 public class 롯데리아Store extends BurgerTypeStore {
+//    @Override
+//    public OrderBurgerMenuComponent createBurgerMenu() { // getInstance()구현
+//        return ;
+//    }
+
+
     @Override
-    public OrderBurgerMenuComponent createBurgerMenu() { // getInstance()구현
-        return ;
+    public String getBurgerTypeStoreName() {
+        return burgerTypeStoreName;
+    }
+
+    @Override
+    public void setBurgerTypeStoreName(String burgerTypeStore_Name) {
+        burgerTypeStoreName = burgerTypeStore_Name;
     }
 }
 
